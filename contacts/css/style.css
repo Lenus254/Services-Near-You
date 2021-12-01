@@ -15,12 +15,6 @@ body {
 .Nav {
      overflow: hidden;
      background-color:grey;
-     
-     
-     
-     
-     
-     
 }
 .Nav a {
     background-color: grey;
@@ -30,7 +24,6 @@ body {
     
     text-decoration: none;
     color:whitesmoke;
-    
 }
 .Nav a:hover {
      color: red;
@@ -40,9 +33,6 @@ body {
     display:table;
     clear:both;
 }
-
-
-
 .contact {
     background-image:url('../images/plumbing.jpg');
     background-size: cover;
@@ -50,20 +40,14 @@ body {
     height:100vh;
     color:white;
     margin:2px;
-    
-    
-    
-    }
-
-    .footer {
+}
+   .footer {
     background-color:grey;
     width:100%;
     padding:2px;
     text-align: left;
     color:white;
     margin-top:5px;
-    
-    
 }
 .column {
     float: left;
