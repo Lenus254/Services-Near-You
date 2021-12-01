@@ -21,7 +21,6 @@ body {
     text-align: center;
     display: inline-block;
     padding:10px;
-    
     text-decoration: none;
     color:whitesmoke;
 }
@@ -33,7 +32,7 @@ body {
     display:table;
     clear:both;
 }
-.contact {
+.contacts {
     background-image:url('../images/plumbing.jpg');
     background-size: cover;
     width: 100%;
@@ -45,10 +44,12 @@ body {
     background-color:grey;
     width:100%;
     padding:2px;
-    text-align: left;
     color:white;
-    margin-top:5px;
-}
+    margin-bottom:0px;
+    height:7.8rem;
+    margin-top:15px;
+    
+} 
 .column {
     float: left;
     width: 33.33%;
@@ -57,4 +58,56 @@ body {
     
   }
   
- 
+  .text{
+    display: none;
+    color: white;
+    position:absolute;
+    bottom: 120px;
+    left: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Pacifico', cursive;
+    } 
+ .contact{
+    background-color:transparent;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     } 
+ .contact>h2{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    color: white;
+         } 
+ #EMAIL,#NAME,#MESSAGE,#subscribe{
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+    } 
+ ::placeholder {
+    color:white;
+    } 
+ #NAME{
+    width: 18%;
+    margin-left: 28%;
+    }
+#EMAIL{
+    width: 18%;
+    margin-left: 130px;
+    }
+#MESSAGE{
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 15px;
+    height: 250px;
+    overflow: none;
+    } 
+ #subscribe{
+    margin-left: 45%;
+    width: 200px;
+    }    
+  
+  
