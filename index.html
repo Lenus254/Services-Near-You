@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services Near You</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -15,16 +16,62 @@
           <li><a href="contact.html"><img src="././images/call.png" height="20px" width="20px" alt="">Contact</a></li>
         </ul>
       </nav>
+  <div class="container">
+   <div class="row">
+     <div class="col-md-6">
       <div class="form">
         <form name="input" action="#">
           <h3 id="form-header">POST YOUR JOB DETAILS HERE</h3>
-            <input type="text" name="neme" id="name" placeholder="Name" class="align"><br>
+            <input type="text" name="name" id="name" placeholder="Name" class="align"><br>
             <input type="profession" name="profession" id="service" placeholder="Your profession" class="align"><br>
             <input type="text" name="contact" id="contact" placeholder="Your contact" class="align"><br>
             <input type="text" name="location" id="location" placeholder="Your location" class="align"><br>
-            <input type="submit" value="Submit" name="submit" onclick="validateForm()" class="align">
+            <button id="addentry" class="align">Add Details</button>
         </form>
+      </div>
     </div>
-    
+    <div class="col-md-6">
+      <h3 class="text-center" id="theader">VIEW AVAILABLE PROFESSIONALS</h3>
+    <table id="display" class="text-center">
+    <tr>
+       <th>Name</th>
+       <th>Profession</th>
+       <th>Contact</th>
+       <th>Location</th>
+     </tr>
+    </table>
+    </div>
+   </div>
+  </div>
+  <footer>
+    <div class="contact">
+      <h5>Contact</h5>
+      <p>
+        +254 77110907 <br>
+        +254 10000001 <br>
+        readychances@gmail.com
+      </p>
+    </div>
+    <div class="services">
+      <h5>Our Services</h5>
+      <p>
+        <a href="#">Web Design </a> <br>
+        <a href="#">Web Hosting  </a><br>
+        <a href="#">Web Developement </a>
+      </p>
+    </div>
+    <div class="sociallinks">
+      <h5>Social Links</h5>
+      <p>
+        <a href="#"> <img src="./images/facebook.png" height="15px" width="15px" alt=""> Facebook</a>
+        <br>
+        <a href="#"> <img src="./images/linkdn.png" height="15px" width="15px" alt=""> Linkedln</a>
+        <br>
+        <a href="#"> <img src="./images/instagram.png" height="15px" width="15px" alt=""> Instagram</a>
+      </p>
+    </div>
+  </footer>
+
+    <Script src="./index.js"></Script>
 </body>
 </html>

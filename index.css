@@ -22,27 +22,66 @@ ul li a{
     font-weight: 400;
     line-height: normal;
 }
-.form{
+ .form{
     background-color: inherit;
-    width: 400px;
+    width: 500px;
     height: 500px;
-    margin-left: 700px;
-    margin-top: 200px;
+    margin-top: 100px;
     border: 5px solid black;
     border-radius: 30px;
-    color: ivory;
+    color:black;
 }
 .align{
     margin-top: 10px;
-    margin-left: 50px;
-    background: inherit;
+    margin-left: 80px;
+    /* background: inherit; */
     border: 2px solid white;
     width: 300px;
     height: 50px;
     border-radius: 30px;
-    color: ivory;
+    color:black;
     
 }
 ::placeholder{
+    color: black;
+} 
+#form-header{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+#display{
+    border: 5px solid black;
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 40px;
+    background-color: gray;
+}
+#display>th,td{
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: white;
+}
+#theader{
+    margin-top: 100px;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24292F;
     color: #FFFFFF;
+     margin-top: 150px;
+   /* margin: 50px -8px -8px -8px;
+    padding: 10px 50px 10px 50px;
+} */
+.contact p{
+    font-size: 15px;
+}
+}
+footer p, a{
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
 }
