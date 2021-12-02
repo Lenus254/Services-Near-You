@@ -29,3 +29,26 @@ function Displaydetails(e){
 
 
 }
+
+const search=document.getElementById("search")//search button
+const myRows=document.querySelectorAll('tbody tr')
+//const myTable=document.getElementById('tt')
+// console.log(mymyRows);
+
+search.addEventListener("keyup",function(event){
+
+    const myInput =event.target.value;
+
+    myRows.forEach((r)=>{
+
+        if(r.querySelector("td").textContent.toLowerCase().startsWith(myInput)){
+
+            r.style.display="table-row";
+           
+
+        }else{
+            r.style.display="none"
+        }
+    })
+
+})
