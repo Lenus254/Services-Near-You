@@ -1,0 +1,74 @@
+body{
+    background-image: url(../images/index.jpeg);
+    background-position: 10px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+}
+nav{
+    background-color: rgba(36,41,47,0.9);
+    margin: -8px -8px 0px -8px;
+    text-align: right;
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+}
+ul li a{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#about-us{
+text-align: center;
+padding-top: 20px;
+}
+.electricity>img{
+    float: left;
+    border-radius: 70%;
+
+}
+.electricity>h3,p{
+    font-size: 20px;
+
+}
+.plumbing>img{
+    float: left;
+    border-radius: 70%;
+}
+.plumbing>h3,p{
+    font-size: 20px;
+}
+.phone>img{
+    float: left;
+    border-radius: 70%;
+}
+.phone>h3,p{
+    font-size: 20px;
+}
+h3{
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24292F;
+    color: #FFFFFF;
+     margin-top: 150px;
+   /* margin: 50px -8px -8px -8px;
+    padding: 10px 50px 10px 50px;*/
+} 
+.contact p{
+    font-size: 15px;
+}
+footer p, a{
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+}
