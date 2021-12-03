@@ -1,30 +1,18 @@
-// $(document).ready(function() {
-//     $("form").submit(function(event){
-//         var name=$("input#NAME").val();
-//         var email=$("input#EMAIL").val();
-//          var message=$("textarea#MESSAGE").val();
-//          alert(name)
-//             if($("input#NAME").val() && $("input#EMAIL").val()){
-//          alert(name+",we have recieved your message.Thank you for reaching out to us.")
-            
-//             }
-//              else{
-//                  alert("please enter your name and email");
-//              }
-         
-//             });
-//         });
-
-        $(document).ready(function(){
-            $("form").submit(function(event){
-              var name = $("input#NAME").val();
-              var email = $("input#EMAIL").val();
-              var message = $("textarea#MESSAGE").val();
-              if ($("input#NAME").val() && $("input#EMAIL").val()){
-                alert (name + ", we have received your message. Thank you for reaching out to us.");
-              }
-              else {
-                alert("Please enter your name and email!");
-              }
-            });
-          });
+function validateForm() {
+  var name = document.getElementById("NAME").value
+  var email = document.getElementById("EMAIL").value
+  var message = document.getElementById("MESSAGE").value
+  alert(message)
+  if ((!name ) || (!email))
+      {
+    alert("please input name and email!!");
+  }
+ 
+//  else if ((month.value <= 0) || (month.value> 12))
+//       {
+//     alert("month is out of range");
+//   }
+  else 
+  {
+    alert(name+"  we have received your message,Thank you for contacting us")
+  } }
