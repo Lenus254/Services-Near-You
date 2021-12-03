@@ -2,7 +2,7 @@ function validateForm() {
   var name = document.getElementById("NAME").value
   var email = document.getElementById("EMAIL").value
   var message = document.getElementById("MESSAGE").value
-  alert(message)
+ // alert(message)
   if ((!name ) || (!email))
       {
     alert("please input name and email!!");

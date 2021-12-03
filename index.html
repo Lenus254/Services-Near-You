@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Near You</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html"><img src="./images/home.png" height="20px" width="20px" alt="">Home</a></li>
+          <li><a href="about.html"><img src="./images/about.png" height="20px" width="20px" alt="">About</a></li>
+          <li><a href="contact.html"><img src="././images/call.png" height="20px" width="20px" alt="">Contact</a></li>
+        </ul>
+      </nav>
+  <div class="container">
+   <div class="row">
+     <div class="col-md-6">
+      <div class="form">
+        <form name="input" action="#">
+          <h3 id="form-header">POST YOUR JOB DETAILS HERE</h3>
+            <input type="text" name="profession" id="service" placeholder=" Your profession" class="align" required><br>
+            <input type="text" name="name" id="name" placeholder="Name" class="align"><br>
+            <input type="text" name="contact" id="contact" placeholder="Your contact" class="align"><br>
+            <input type="text" name="location" id="location" placeholder="Your location" class="align" required><br>
+            <button id="addentry" class="align">Add Details</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h3 class="text-center" id="theader">VIEW AVAILABLE PROFESSIONALS</h3>
+      <label>Search</label>
+      <input type="text" name="search" id="search" placeholder="Search ">
+   
+    <table  style="font-size: 25px;" id="display" class="table table-bordered">
+      <thead>
+        <tr>
+         
+       <th>Profession</th>
+       <th>Name</th>
+       <th>Contact</th>
+       <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Electrician</td>
+          <td>Patrick</td>
+          <td>0723456765</td>
+          <td>Westlands</td>
+        </tr>
+        <tr>
+          <td>Saloonist</td>
+          <td>Eva</td>
+          <td>0721234564</td>
+          <td>Uthiru</td>
+        </tr>
+        <tr>
+          <td>Hairdressing</td>
+          <td>Juduth</td>
+          <td>0712345465</td>
+          <td>Limuru</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+   </div>
+  </div>
+  <footer>
+    <div class="contact">
+      <h5>Contact</h5>
+      <p>
+        +254 77110907 <br>
+        +254 10000001 <br>
+        servicesnear@gmail.com
+      </p>
+    </div>
+    <div class="services">
+      <h5>Our Services</h5>
+      <p>
+        <a href="#">Web Design </a> <br>
+        <a href="#">Web Hosting  </a><br>
+        <a href="#">Web Developement </a>
+      </p>
+    </div>
+    <div class="sociallinks">
+      <h5>Social Links</h5>
+      <p>
+        <a href="#"> <img src="./images/facebook.png" height="15px" width="15px" alt=""> Facebook</a>
+        <br>
+        <a href="#"> <img src="./images/linkdn.png" height="15px" width="15px" alt=""> Linkedln</a>
+        <br>
+        <a href="#"> <img src="./images/instagram.png" height="15px" width="15px" alt=""> Instagram</a>
+      </p>
+    </div>
+  </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
