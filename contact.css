@@ -1,5 +1,5 @@
 body{
-    background-image: url(/images/plumbing.jpg );
+    background-image: url(./images/plumbing.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -77,4 +77,4 @@ body{
         color: #FFFFFF;
         font-size: 15px;
         text-decoration: none;
-    }
+    }    
