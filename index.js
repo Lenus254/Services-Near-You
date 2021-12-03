@@ -20,8 +20,8 @@ function Displaydetails(e){
     var cell3=newrow.insertCell(2);
     var cell4=newrow.insertCell(3);
 
-    cell1.innerHTML =name;
-    cell2.innerHTML =profession;
+    cell1.innerHTML =profession;
+    cell2.innerHTML =name;
     cell3.innerHTML =contact;
     cell4.innerHTML =location;
 

@@ -1,0 +1,80 @@
+body{
+    background-image: url(./images/plumbing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     }
+     nav{
+        background-color: rgba(36,41,47,0.9);
+        margin: -8px -8px 0px -8px;
+        text-align: right;
+        padding: 10px;
+    }
+    ul li{
+        list-style: none;
+        display: inline;
+        padding-right: 30px;
+    }
+    ul li a{
+        color: #FFFFFF;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        line-height: normal;
+    }
+.contact>h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    color: white;
+         }
+#EMAIL,#NAME,#MESSAGE,#subscribe{
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    }
+::placeholder {
+    color:white;
+    }
+#NAME{
+    width: 18%;
+    margin-left: 28%;
+    height: 40px;
+    }
+#EMAIL{
+    width: 18%;
+    margin-left: 130px;
+    height: 40px;
+    }
+#MESSAGE{
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 15px;
+    height: 250px;
+    overflow: none;
+    }
+#subscribe{
+    margin-left: 45%;
+    width: 200px;
+    }   
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: #24292F;
+        color: #FFFFFF;
+         margin-top: 300px;
+         width: 100%;
+        /* margin: 50px -8px -8px -8px;
+        padding: 10px 50px 10px 50px; */
+    } 
+    .contact p{
+        font-size: 15px;
+    }
+    footer p, a{
+        color: #FFFFFF;
+        font-size: 15px;
+        text-decoration: none;
+    }    
